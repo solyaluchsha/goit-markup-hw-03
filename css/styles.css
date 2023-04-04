@@ -124,12 +124,7 @@ margin-right: auto;
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
-}
-
-.main-section-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .main-title {
@@ -139,6 +134,8 @@ margin-right: auto;
         color: #FFFFFF;
         text-align: center;
         letter-spacing: 0.02em;
+        max-width: 496px;
+        margin: 0 auto;
         margin-bottom: 48px;
 }
 
@@ -232,9 +229,7 @@ margin-right: auto;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     width: calc((100% - 72px) / 4);
 }
 
@@ -314,7 +309,9 @@ margin-right: auto;
 }
 
 .card-wrap {
+    padding: 32px 16px;
     border: 1px solid #E7E9FC;
+    border-top: 0;
 }
 
 .portfolio-subtitle {
@@ -323,9 +320,7 @@ margin-right: auto;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-color);
-    margin-top: 32px;
     margin-bottom: 8px;
-    margin-left: 16px;
 }
 
 .portfolio-text {
@@ -333,8 +328,6 @@ margin-right: auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    padding-bottom: 32px;
-    margin-left: 16px;
 }
 
 .logo-studio-footer {
